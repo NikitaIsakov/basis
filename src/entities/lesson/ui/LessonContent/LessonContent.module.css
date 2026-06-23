@@ -1,0 +1,91 @@
+.lessonContent {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.text {
+  margin: 0;
+  line-height: 1.7;
+  color: var(--color-text);
+}
+
+.codeBlock {
+  margin: 0;
+  padding: 1rem 1.25rem;
+  background: #0f172a;
+  color: #e2e8f0;
+  border-radius: var(--radius-md);
+  overflow-x: auto;
+  font-family: 'Consolas', 'Monaco', monospace;
+  font-size: 0.875rem;
+  line-height: 1.5;
+}
+
+.codeLang {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 0.75rem;
+  color: #94a3b8;
+  text-transform: uppercase;
+}
+
+.checklist {
+  margin: 0;
+  padding: 1rem 1.25rem;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  list-style: none;
+}
+
+.checklistTitle {
+  margin: 0 0 0.75rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+
+.checklistItem {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.checklistItem:last-child {
+  margin-bottom: 0;
+}
+
+.quiz {
+  padding: 1.25rem;
+  background: #eff6ff;
+  border: 1px solid #bfdbfe;
+  border-radius: var(--radius-md);
+}
+
+.quizQuestion {
+  margin: 0 0 1rem;
+  font-weight: 600;
+}
+
+.quizOption {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+}
+
+.quizFeedback {
+  margin: 0.75rem 0 0;
+  font-size: 0.875rem;
+}
+
+.quizSuccess {
+  color: var(--color-success);
+}
+
+.quizError {
+  color: var(--color-danger);
+}

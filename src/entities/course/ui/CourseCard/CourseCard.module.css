@@ -1,0 +1,56 @@
+.card {
+  background: #fff;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  box-shadow: 0 1px 3px rgba(15, 23, 42, 0.06);
+}
+
+.badge {
+  align-self: flex-start;
+  background: #eff6ff;
+  color: #1d4ed8;
+  font-size: 0.75rem;
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+}
+
+.meta {
+  margin: 0;
+  font-size: 0.75rem;
+  color: #64748b;
+}
+
+.title a {
+  color: #0f172a;
+  text-decoration: none;
+}
+
+.title a:hover {
+  color: #2563eb;
+}
+
+.description {
+  color: #64748b;
+  font-size: 0.9rem;
+  flex: 1;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.price {
+  font-weight: 600;
+  color: #0f172a;
+}
+
+.rating {
+  color: #f59e0b;
+  font-size: 0.9rem;
+}

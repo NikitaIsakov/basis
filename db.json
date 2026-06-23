@@ -1,0 +1,1076 @@
+{
+  "courses": [
+    {
+      "id": "1",
+      "title": "Основы React",
+      "description": "Компоненты, хуки и маршрутизация в современных SPA.",
+      "price": 4990,
+      "category": "Программирование",
+      "authorId": "author-1",
+      "rating": 4.8,
+      "hidden": false,
+      "level": "beginner",
+      "durationHours": 8,
+      "studentsCount": 1240,
+      "learningOutcomes": [
+        "Создавать компоненты React",
+        "Использовать хуки useState и useEffect",
+        "Настраивать маршрутизацию в SPA"
+      ],
+      "requirements": [
+        "Базовый HTML, CSS и JavaScript"
+      ]
+    },
+    {
+      "id": "2",
+      "title": "TypeScript для фронтенда",
+      "description": "Типизация, дженерики и практики в крупных проектах.",
+      "price": 5990,
+      "category": "Программирование",
+      "authorId": "author-1",
+      "rating": 4.6,
+      "hidden": false,
+      "level": "intermediate",
+      "durationHours": 10,
+      "studentsCount": 890,
+      "learningOutcomes": [
+        "Типизировать props и state",
+        "Применять generics и utility types",
+        "Строить типобезопасные API-слои"
+      ],
+      "requirements": [
+        "Опыт JavaScript",
+        "Знакомство с React желательно"
+      ]
+    },
+    {
+      "id": "3",
+      "title": "UX образовательных платформ",
+      "description": "Проектирование удобных интерфейсов для e-learning.",
+      "price": 3490,
+      "category": "Дизайн",
+      "authorId": "author-2",
+      "rating": 4.9,
+      "hidden": false,
+      "level": "beginner",
+      "durationHours": 6,
+      "studentsCount": 560,
+      "learningOutcomes": [
+        "Проводить user research",
+        "Создавать wireframes и прототипы",
+        "Тестировать usability сценариев"
+      ],
+      "requirements": [
+        "Интерес к дизайну интерфейсов"
+      ]
+    },
+    {
+      "id": "4",
+      "title": "Redux Toolkit на практике",
+      "description": "Слайсы, RTK Query и асинхронные сценарии.",
+      "price": 4490,
+      "category": "Программирование",
+      "authorId": "author-1",
+      "rating": 4.7,
+      "hidden": false,
+      "level": "intermediate",
+      "durationHours": 7,
+      "studentsCount": 720,
+      "learningOutcomes": [
+        "Создавать слайсы Redux Toolkit",
+        "Работать с RTK Query",
+        "Обрабатывать async-сценарии"
+      ],
+      "requirements": [
+        "React на базовом уровне"
+      ]
+    },
+    {
+      "id": "5",
+      "title": "Vue 3: Composition API",
+      "description": "Реактивность, composables и сборка SPA на Vue 3.",
+      "price": 5490,
+      "category": "Программирование",
+      "authorId": "author-2",
+      "rating": 4.5,
+      "hidden": false,
+      "level": "intermediate",
+      "durationHours": 9,
+      "studentsCount": 430,
+      "learningOutcomes": [
+        "Использовать Composition API",
+        "Создавать composables",
+        "Настраивать Vue Router"
+      ],
+      "requirements": [
+        "JavaScript ES6+",
+        "Опыт HTML/CSS"
+      ]
+    },
+    {
+      "id": "6",
+      "title": "Figma для начинающих",
+      "description": "От макета до handoff: компоненты, auto-layout и стили.",
+      "price": 2990,
+      "category": "Дизайн",
+      "authorId": "author-2",
+      "rating": 4.7,
+      "hidden": false,
+      "level": "beginner",
+      "durationHours": 5,
+      "studentsCount": 980,
+      "learningOutcomes": [
+        "Работать в Figma с auto-layout",
+        "Собирать UI-kit компонентов",
+        "Готовить handoff для разработки"
+      ],
+      "requirements": [
+        "Нет опыта в дизайне — подойдёт"
+      ]
+    },
+    {
+      "id": "7",
+      "title": "SEO для образовательных проектов",
+      "description": "Продвижение курсов в поиске: семантика, контент и аналитика.",
+      "price": 3990,
+      "category": "Маркетинг",
+      "authorId": "author-2",
+      "rating": 4.4,
+      "hidden": false,
+      "level": "beginner",
+      "durationHours": 6,
+      "studentsCount": 310,
+      "learningOutcomes": [
+        "Оптимизировать страницы под SEO",
+        "Планировать контент-стратегию",
+        "Настраивать аналитику"
+      ],
+      "requirements": [
+        "Базовое понимание веб-сайтов"
+      ]
+    },
+    {
+      "id": "8",
+      "title": "Основы Node.js",
+      "description": "HTTP-сервер, Express, работа с файлами и REST API.",
+      "price": 6490,
+      "category": "Программирование",
+      "authorId": "author-1",
+      "rating": 4.6,
+      "hidden": false,
+      "level": "intermediate",
+      "durationHours": 12,
+      "studentsCount": 650,
+      "learningOutcomes": [
+        "Создавать REST API на Express",
+        "Работать с файловой системой",
+        "Деплоить Node-приложения"
+      ],
+      "requirements": [
+        "JavaScript",
+        "Базовый HTTP"
+      ]
+    },
+    {
+      "id": "9",
+      "title": "UI/UX паттерны e-commerce",
+      "description": "Карточки товаров, корзина, checkout и мобильные сценарии.",
+      "price": 4290,
+      "category": "Дизайн",
+      "authorId": "author-2",
+      "rating": 4.8,
+      "hidden": false,
+      "level": "intermediate",
+      "durationHours": 7,
+      "studentsCount": 540,
+      "learningOutcomes": [
+        "Проектировать карточки товаров",
+        "Оптимизировать checkout flow",
+        "Адаптировать UI под mobile"
+      ],
+      "requirements": [
+        "Базовый UX/UI"
+      ]
+    },
+    {
+      "id": "10",
+      "title": "Управление образовательным проектом",
+      "description": "Планирование, команда, метрики и запуск онлайн-курса.",
+      "price": 3790,
+      "category": "Бизнес",
+      "authorId": "author-1",
+      "rating": 4.3,
+      "hidden": false,
+      "level": "beginner",
+      "durationHours": 5,
+      "studentsCount": 280,
+      "learningOutcomes": [
+        "Планировать запуск курса",
+        "Формировать команду",
+        "Отслеживать метрики продукта"
+      ],
+      "requirements": [
+        "Интерес к управлению проектами"
+      ]
+    },
+    {
+      "id": "11",
+      "title": "Курс с сомнительным контентом",
+      "description": "Пример курса, скрытого администратором из публичного каталога.",
+      "price": 1990,
+      "category": "Маркетинг",
+      "authorId": "author-1",
+      "rating": 2.1,
+      "hidden": true,
+      "level": "beginner",
+      "durationHours": 2,
+      "studentsCount": 12,
+      "learningOutcomes": [
+        "Пример скрытого курса"
+      ],
+      "requirements": []
+    },
+    {
+      "id": "12",
+      "title": "Черновик: GraphQL Basics",
+      "description": "Неопубликованный черновик: схемы, queries и mutations.",
+      "price": 5190,
+      "category": "Программирование",
+      "authorId": "author-1",
+      "rating": 0,
+      "hidden": true,
+      "level": "intermediate",
+      "durationHours": 4,
+      "studentsCount": 0,
+      "learningOutcomes": [
+        "GraphQL basics",
+        "Схемы и queries"
+      ],
+      "requirements": [
+        "REST API опыт"
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "id": "l1",
+      "courseId": "1",
+      "title": "Введение в React",
+      "content": "React — библиотека для построения пользовательских интерфейсов.",
+      "order": 1,
+      "blocks": [
+        {
+          "type": "text",
+          "body": "React — библиотека для построения пользовательских интерфейсов. Она использует декларативный подход: вы описываете, как UI должен выглядеть для текущего состояния данных."
+        },
+        {
+          "type": "code",
+          "language": "jsx",
+          "code": "import { createRoot } from 'react-dom/client';\n\nfunction App() {\n  return <h1>Привет, React!</h1>;\n}\n\ncreateRoot(document.getElementById('root')!).render(<App />);"
+        },
+        {
+          "type": "checklist",
+          "items": [
+            "Установить Node.js и создать проект через Vite",
+            "Запустить dev-сервер и открыть приложение в браузере",
+            "Изменить текст в App и убедиться, что UI обновился"
+          ]
+        },
+        {
+          "type": "quiz",
+          "question": "Что делает React при изменении state?",
+          "options": [
+            "Перезагружает всю страницу",
+            "Перерисовывает только затронутые части UI",
+            "Отправляет форму на сервер"
+          ],
+          "correctIndex": 1
+        }
+      ],
+      "durationMinutes": 13
+    },
+    {
+      "id": "l2",
+      "courseId": "1",
+      "title": "Компоненты и props",
+      "content": "Компоненты позволяют разбивать UI на независимые части. Props передают данные от родителя к дочернему компоненту и делают интерфейс переиспользуемым. На практике создадим несколько компонентов и научимся типизировать props в TypeScript.",
+      "order": 2,
+      "durationMinutes": 18
+    },
+    {
+      "id": "l1-3",
+      "courseId": "1",
+      "title": "Состояние и хуки useState",
+      "content": "Локальное состояние компонента хранится через хук useState. Изменение state инициирует повторный рендер и обновление UI. Рассмотрим правила хуков и типичные ошибки при работе с объектами и массивами в state.",
+      "order": 3,
+      "durationMinutes": 10
+    },
+    {
+      "id": "l1-4",
+      "courseId": "1",
+      "title": "useEffect и побочные эффекты",
+      "content": "Хук useEffect связывает компонент с внешним миром: запросы к API, подписки и таймеры. Важно правильно указывать массив зависимостей и функцию очистки. На примере загрузим список курсов при монтировании компонента.",
+      "order": 4,
+      "durationMinutes": 15
+    },
+    {
+      "id": "l1-5",
+      "courseId": "1",
+      "title": "Маршрутизация в React Router",
+      "content": "React Router позволяет строить многостраничные SPA без перезагрузки документа. Настроим базовые маршруты, вложенные layout и навигацию через Link. Обсудим lazy-loading страниц для оптимизации бандла.",
+      "order": 5,
+      "durationMinutes": 20
+    },
+    {
+      "id": "l3",
+      "courseId": "2",
+      "title": "Базовые типы TypeScript",
+      "content": "Статическая типизация помогает находить ошибки на этапе компиляции. Изучим примитивы, union-типы, литералы и type aliases. Сравним подход TypeScript с PropTypes в React-компонентах.",
+      "order": 1,
+      "durationMinutes": 13
+    },
+    {
+      "id": "l2-2",
+      "courseId": "2",
+      "title": "Интерфейсы и type aliases",
+      "content": "interface и type решают схожие задачи, но имеют различия в расширении и объединении. Научимся описывать формы данных API и DTO для создания курсов. Рассмотрим optional и readonly модификаторы.",
+      "order": 2,
+      "durationMinutes": 18
+    },
+    {
+      "id": "l2-3",
+      "courseId": "2",
+      "title": "Generics на практике",
+      "content": "Дженерики делают функции и компоненты универсальными без потери типобезопасности. Применим их к хукам, спискам и обёрткам над fetch. Разберём ограничения extends и вывод типов компилятором.",
+      "order": 3,
+      "durationMinutes": 10
+    },
+    {
+      "id": "l2-4",
+      "courseId": "2",
+      "title": "Utility Types",
+      "content": "Partial, Pick, Omit и Record ускоряют работу с большими моделями. С их помощью строим типы для форм редактирования и ответов API. Покажем, как комбинировать utility types для сложных сценариев.",
+      "order": 4,
+      "durationMinutes": 15
+    },
+    {
+      "id": "l3-1",
+      "courseId": "3",
+      "title": "Введение в UX",
+      "content": "UX — это опыт пользователя при взаимодействии с продуктом.",
+      "order": 1,
+      "blocks": [
+        {
+          "type": "text",
+          "body": "UX — это опыт пользователя при взаимодействии с продуктом. Для образовательных платформ важны ясная навигация, прогресс обучения и минимум когнитивной нагрузки."
+        },
+        {
+          "type": "checklist",
+          "items": [
+            "Определить целевую аудиторию платформы",
+            "Составить карту ключевых пользовательских сценариев",
+            "Проверить, что каждый сценарий укладывается в 3 клика"
+          ]
+        },
+        {
+          "type": "quiz",
+          "question": "Что важнее всего для UX образовательной платформы?",
+          "options": [
+            "Максимум анимаций на главной",
+            "Понятный прогресс обучения",
+            "Скрытый каталог курсов"
+          ],
+          "correctIndex": 1
+        }
+      ],
+      "durationMinutes": 13
+    },
+    {
+      "id": "l3-2",
+      "courseId": "3",
+      "title": "User Research",
+      "content": "Исследования помогают принимать решения на основе данных, а не предположений. Проведём интервью со студентами и составим персоны. Научимся формулировать гипотезы и проверять их быстрыми прототипами.",
+      "order": 2,
+      "durationMinutes": 18
+    },
+    {
+      "id": "l3-3",
+      "courseId": "3",
+      "title": "Wireframes и прототипы",
+      "content": "Wireframe фиксирует структуру экрана без визуального polish. Интерактивный прототип позволяет протестировать flow до разработки. Соберём прототип каталога курсов и страницы урока в Figma.",
+      "order": 3,
+      "durationMinutes": 10
+    },
+    {
+      "id": "l3-4",
+      "courseId": "3",
+      "title": "Usability-тестирование",
+      "content": "Модерируемое тестирование выявляет проблемы там, где команда их не замечает. Составим сценарии задач: найти курс, записаться, пройти урок. Зафиксируем метрики успеха и список улучшений для backlog.",
+      "order": 4,
+      "durationMinutes": 15
+    },
+    {
+      "id": "l4-1",
+      "courseId": "4",
+      "title": "Store и reducers",
+      "content": "Redux хранит глобальное состояние в едином store. Reducer — чистая функция (state, action) => newState. Разберём однонаправленный поток данных и зачем он полезен в крупных React-приложениях.",
+      "order": 1,
+      "durationMinutes": 13
+    },
+    {
+      "id": "l4-2",
+      "courseId": "4",
+      "title": "createSlice",
+      "content": "Redux Toolkit упрощает создание слайсов с reducers и actions. Immer под капотом позволяет писать «мутирующий» код безопасно. Создадим sessionSlice для авторизации и записи на курсы.",
+      "order": 2,
+      "durationMinutes": 18
+    },
+    {
+      "id": "l4-3",
+      "courseId": "4",
+      "title": "RTK Query basics",
+      "content": "RTK Query кеширует серверные данные и управляет loading/error состояниями.",
+      "order": 3,
+      "blocks": [
+        {
+          "type": "text",
+          "body": "RTK Query кеширует серверные данные и управляет loading/error состояниями. Endpoints описываются декларативно, а кеш инвалидируется через tags."
+        },
+        {
+          "type": "code",
+          "language": "typescript",
+          "code": "export const courseApi = createApi({\n  reducerPath: 'courseApi',\n  baseQuery: fetchBaseQuery({ baseUrl: '/api' }),\n  endpoints: (builder) => ({\n    getCourses: builder.query<Course[], void>({\n      query: () => '/courses',\n    }),\n  }),\n});"
+        },
+        {
+          "type": "quiz",
+          "question": "За что отвечает RTK Query?",
+          "options": [
+            "Только за роутинг в приложении",
+            "За кеширование и загрузку серверных данных",
+            "За стилизацию компонентов"
+          ],
+          "correctIndex": 1
+        }
+      ],
+      "durationMinutes": 10
+    },
+    {
+      "id": "l4-4",
+      "courseId": "4",
+      "title": "Async thunks",
+      "content": "createAsyncThunk подходит для сложных сценариев вне RTK Query. Обработаем pending, fulfilled и rejected состояния в extraReducers. Покажем, когда thunk предпочтительнее query endpoint.",
+      "order": 4,
+      "durationMinutes": 15
+    },
+    {
+      "id": "l5-1",
+      "courseId": "5",
+      "title": "Reactivity в Vue 3",
+      "content": "Vue 3 использует Proxy для отслеживания изменений данных. ref и reactive — два способа объявить реактивное состояние. Сравним ментальную модель Vue с React hooks на простом счётчике.",
+      "order": 1,
+      "durationMinutes": 13
+    },
+    {
+      "id": "l5-2",
+      "courseId": "5",
+      "title": "Composition API",
+      "content": "setup() и script setup группируют логику по фичам, а не по options. Composables переиспользуют stateful-логику между компонентами. Вынесем загрузку курсов в useCourses composable.",
+      "order": 2,
+      "durationMinutes": 18
+    },
+    {
+      "id": "l5-3",
+      "courseId": "5",
+      "title": "Компоненты и props",
+      "content": "defineProps и defineEmits типизируют контракт компонента. Slots позволяют передавать разметку внутрь дочерних элементов. Соберём карточку курса с именованными слотами для цены и рейтинга.",
+      "order": 3,
+      "durationMinutes": 10
+    },
+    {
+      "id": "l5-4",
+      "courseId": "5",
+      "title": "Vue Router",
+      "content": "Маршруты описываются декларативно, navigation guards защищают приватные страницы. Настроим lazy routes и meta-поля для ролей user и admin. Интегрируем router с Pinia для проверки сессии.",
+      "order": 4,
+      "durationMinutes": 15
+    },
+    {
+      "id": "l6-1",
+      "courseId": "6",
+      "title": "Интерфейс Figma",
+      "content": "Frames, groups и constraints — основа аккуратных макетов. Разберём панели layers, properties и shortcuts для быстрой работы. Создадим файл дизайн-системы для образовательного маркетплейса.",
+      "order": 1,
+      "durationMinutes": 13
+    },
+    {
+      "id": "l6-2",
+      "courseId": "6",
+      "title": "Auto Layout",
+      "content": "Auto Layout автоматически адаптирует блоки при изменении контента. Настроим карточку курса с отступами, gap и выравниванием. Покажем responsive-поведение при длинных заголовках.",
+      "order": 2,
+      "durationMinutes": 18
+    },
+    {
+      "id": "l6-3",
+      "courseId": "6",
+      "title": "Компоненты и variants",
+      "content": "Компоненты в Figma синхронизируются между экранами через instances. Variants описывают состояния: default, hover, disabled. Соберём библиотеку кнопок и полей ввода для формы регистрации.",
+      "order": 3,
+      "durationMinutes": 10
+    },
+    {
+      "id": "l7-1",
+      "courseId": "7",
+      "title": "Основы SEO",
+      "content": "Поисковая оптимизация начинается с релевантного контента и технически корректной разметки. Разберём title, description, заголовки H1–H3 и внутреннюю перелinkовку. Объясним разницу между SEO для лендинга и каталога курсов.",
+      "order": 1,
+      "durationMinutes": 13
+    },
+    {
+      "id": "l7-2",
+      "courseId": "7",
+      "title": "Семантическая вёрстка",
+      "content": "Теги article, section и nav помогают поисковикам понимать структуру страницы. Добавим schema.org разметку Course для карточек в каталоге. Проверим доступность и Core Web Vitals.",
+      "order": 2,
+      "durationMinutes": 18
+    },
+    {
+      "id": "l7-3",
+      "courseId": "7",
+      "title": "Контент-стратегия",
+      "content": "Образовательные проекты продвигаются через экспертные статьи и кейсы выпускников. Составим контент-план на квартал и кластер ключевых запросов. Свяжем блог с карточками курсов через CTA.",
+      "order": 3,
+      "durationMinutes": 10
+    },
+    {
+      "id": "l7-4",
+      "courseId": "7",
+      "title": "Аналитика и метрики",
+      "content": "Google Search Console и Яндекс.Вебмастер показывают запросы и позиции. Настроим цели в аналитике: регистрация, запись на курс, оплата. Интерпретируем CTR сниппетов и дорабатываем meta-теги.",
+      "order": 4,
+      "durationMinutes": 15
+    },
+    {
+      "id": "l8-1",
+      "courseId": "8",
+      "title": "Node.js и npm",
+      "content": "Node.js выполняет JavaScript вне браузера на движке V8. npm управляет зависимостями и scripts в package.json. Инициализируем проект и разберём модули CommonJS и ESM.",
+      "order": 1,
+      "durationMinutes": 13
+    },
+    {
+      "id": "l8-2",
+      "courseId": "8",
+      "title": "HTTP и Express",
+      "content": "Express — минималистичный фреймворк для REST API. Настроим маршруты GET/POST, middleware для JSON и обработку ошибок. Реализуем endpoint списка курсов с фильтрацией по категории.",
+      "order": 2,
+      "durationMinutes": 18
+    },
+    {
+      "id": "l8-3",
+      "courseId": "8",
+      "title": "Работа с файлами",
+      "content": "fs/promises позволяет читать и записывать JSON-базу для mock API. Добавим валидацию входных данных перед сохранением. Обсудим race conditions при параллельных запросах.",
+      "order": 3,
+      "durationMinutes": 10
+    },
+    {
+      "id": "l8-4",
+      "courseId": "8",
+      "title": "REST API design",
+      "content": "Хороший API предсказуем: ресурсы, коды ответов, пагинация. Спроектируем CRUD для courses и lessons. Документируем контракт в OpenAPI для фронтенд-команды.",
+      "order": 4,
+      "durationMinutes": 15
+    },
+    {
+      "id": "l8-5",
+      "courseId": "8",
+      "title": "Деплой и окружение",
+      "content": "Переменные окружения хранят секреты и URL баз данных. Соберём Docker-образ Node-приложения и опишем healthcheck. Кратко рассмотрим serverless-альтернативы для учебных проектов.",
+      "order": 5,
+      "durationMinutes": 20
+    },
+    {
+      "id": "l9-1",
+      "courseId": "9",
+      "title": "Карточка товара",
+      "content": "Карточка должна отвечать на вопросы: что это, сколько стоит, почему доверять. Покажем фото, цену, рейтинг и CTA без перегрузки. Разберём паттерны для desktop и mobile.",
+      "order": 1,
+      "durationMinutes": 13
+    },
+    {
+      "id": "l9-2",
+      "courseId": "9",
+      "title": "Корзина и checkout",
+      "content": "Корзина суммирует выбор пользователя и минимизирует шаги до оплаты. Guest checkout снижает трение, сохранение корзины — возвращает пользователя. Спроектируем flow для покупки нескольких курсов.",
+      "order": 2,
+      "durationMinutes": 18
+    },
+    {
+      "id": "l9-3",
+      "courseId": "9",
+      "title": "Фильтры и сортировка",
+      "content": "Фильтры по категории и цене ускоряют поиск в большом каталоге. Сортировка по рейтингу и новизне должна быть очевидной. Добавим chips активных фильтров и кнопку сброса.",
+      "order": 3,
+      "durationMinutes": 10
+    },
+    {
+      "id": "l9-4",
+      "courseId": "9",
+      "title": "Мобильные паттерны",
+      "content": "На мобильных важны большие touch-цели и sticky CTA. Bottom sheet подходит для фильтров, swipe — для галереи. Проверим макет на типичных breakpoints 360px и 768px.",
+      "order": 4,
+      "durationMinutes": 15
+    },
+    {
+      "id": "l10-1",
+      "courseId": "10",
+      "title": "Планирование запуска",
+      "content": "Запуск курса начинается с целей, аудитории и MVP программы. Составим roadmap на 8 недель: контент, платформа, маркетинг. Оценим риски и ресурсы команды.",
+      "order": 1,
+      "durationMinutes": 13
+    },
+    {
+      "id": "l10-2",
+      "courseId": "10",
+      "title": "Команда и роли",
+      "content": "Минимальная команда: автор, методист, монтажёр, маркетолог. RACI-матрица проясняет ответственность. Настроим процессы ревью материалов и релизов модулей.",
+      "order": 2,
+      "durationMinutes": 18
+    },
+    {
+      "id": "l10-3",
+      "courseId": "10",
+      "title": "Метрики успеха",
+      "content": "Completion rate, NPS и LTV студента показывают здоровье продукта. Определим north star metric для EdMarket-подобной платформы. Настроим дашборд для еженедельного review.",
+      "order": 3,
+      "durationMinutes": 10
+    },
+    {
+      "id": "l11-1",
+      "courseId": "11",
+      "title": "Сомнительные практики продвижения",
+      "content": "Учебный пример того, как не стоит продвигать курсы: спам, clickbait и пустые обещания. Курс скрыт модератором и не отображается в публичном каталоге.",
+      "order": 1,
+      "durationMinutes": 13
+    },
+    {
+      "id": "l11-2",
+      "courseId": "11",
+      "title": "Почему модерация важна",
+      "content": "Платформа несёт ответственность за качество контента в каталоге. Администратор может скрыть курс до исправления нарушений. Рассмотрим чеклист модерации для авторов.",
+      "order": 2,
+      "durationMinutes": 18
+    },
+    {
+      "id": "l12-1",
+      "courseId": "12",
+      "title": "GraphQL vs REST",
+      "content": "GraphQL позволяет клиенту запрашивать только нужные поля одним запросом. Сравним с REST-подходом EdMarket на json-server. Обсудим, когда GraphQL оправдан в образовательных проектах.",
+      "order": 1,
+      "durationMinutes": 13
+    },
+    {
+      "id": "l12-2",
+      "courseId": "12",
+      "title": "Схема и типы",
+      "content": "SDL описывает типы Query, Mutation и связи между сущностями Course и Lesson. Настроим Apollo Server с in-memory резолверами. Черновик курса пока скрыт от студентов.",
+      "order": 2,
+      "durationMinutes": 18
+    },
+    {
+      "id": "l12-3",
+      "courseId": "12",
+      "title": "Queries и mutations",
+      "content": "Query fetchCourses возвращает список с фильтрами, mutation enrollCourse обновляет запись студента. Покажем обработку ошибок и авторизацию по ролям на уровне резолверов.",
+      "order": 3,
+      "durationMinutes": 10
+    },
+    {
+      "id": "l1-6",
+      "courseId": "1",
+      "title": "Контекст и провайдеры",
+      "content": "Context API передаёт данные через дерево компонентов без prop drilling. Создадим ThemeContext и провайдер для настроек приложения.",
+      "order": 6,
+      "durationMinutes": 14
+    },
+    {
+      "id": "l1-7",
+      "courseId": "1",
+      "title": "Оптимизация рендеров",
+      "content": "React.memo, useMemo и useCallback помогают избежать лишних перерисовок. Разберём, когда оптимизация действительно нужна.",
+      "order": 7,
+      "durationMinutes": 16
+    },
+    {
+      "id": "l2-5",
+      "courseId": "2",
+      "title": "Типизация React-компонентов",
+      "content": "Типизируем FC, props с children, event handlers. Используем ComponentProps и PropsWithChildren.",
+      "order": 5,
+      "durationMinutes": 12,
+      "blocks": [
+        {
+          "type": "text",
+          "body": "TypeScript делает React-компоненты предсказуемыми: props, events и refs получают явные типы."
+        },
+        {
+          "type": "code",
+          "language": "typescript",
+          "code": "type ButtonProps = {\n  label: string;\n  onClick: () => void;\n};\n\nfunction Button({ label, onClick }: ButtonProps) {\n  return <button onClick={onClick}>{label}</button>;\n}"
+        },
+        {
+          "type": "quiz",
+          "question": "Что даёт типизация props?",
+          "options": [
+            "Только красивый код",
+            "Ошибки на этапе компиляции",
+            "Быстрее загрузку сайта"
+          ],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "l3-5",
+      "courseId": "3",
+      "title": "Дизайн-системы для e-learning",
+      "content": "Единые токены, компоненты и паттерны ускоряют разработку. Соберём mini design system для SkillPort.",
+      "order": 5,
+      "durationMinutes": 15
+    },
+    {
+      "id": "l4-5",
+      "courseId": "4",
+      "title": "Middleware и DevTools",
+      "content": "Middleware расширяет store логированием и persistance. Подключим Redux DevTools для отладки.",
+      "order": 5,
+      "durationMinutes": 11
+    },
+    {
+      "id": "l5-5",
+      "courseId": "5",
+      "title": "Pinia vs Vuex",
+      "content": "Сравним state-менеджеры во Vue-экосистеме. Pinia — современный выбор для Vue 3.",
+      "order": 5,
+      "durationMinutes": 13,
+      "blocks": [
+        {
+          "type": "text",
+          "body": "Pinia упрощает типизацию и модульность по сравнению с Vuex 4. Рекомендуется для новых Vue 3 проектов."
+        },
+        {
+          "type": "quiz",
+          "question": "Какой store рекомендован для Vue 3?",
+          "options": [
+            "Vuex 3",
+            "Pinia",
+            "MobX only"
+          ],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "l6-4",
+      "courseId": "6",
+      "title": "Прототипирование форм",
+      "content": "Соберём форму регистрации с валидацией и состояниями ошибок в Figma.",
+      "order": 4,
+      "durationMinutes": 10
+    },
+    {
+      "id": "l7-5",
+      "courseId": "7",
+      "title": "Локальное SEO",
+      "content": "Яндекс и Google для региональных образовательных проектов. Карты, отзывы, локальные landing.",
+      "order": 5,
+      "durationMinutes": 12
+    },
+    {
+      "id": "l8-6",
+      "courseId": "8",
+      "title": "Аутентификация JWT",
+      "content": "Реализуем login endpoint, выдачу токена и middleware проверки для защищённых маршрутов.",
+      "order": 6,
+      "durationMinutes": 18,
+      "blocks": [
+        {
+          "type": "text",
+          "body": "JWT хранит payload в подписанном токене. Access token передаётся в Authorization header."
+        },
+        {
+          "type": "code",
+          "language": "javascript",
+          "code": "app.use('/api', (req, res, next) => {\n  const token = req.headers.authorization?.split(' ')[1];\n  if (!token) return res.status(401).json({ error: 'Unauthorized' });\n  next();\n});"
+        }
+      ]
+    },
+    {
+      "id": "l9-5",
+      "courseId": "9",
+      "title": "A/B тестирование UI",
+      "content": "Как проверять гипотезы по конверсии checkout и карточек товаров на реальном трафике.",
+      "order": 5,
+      "durationMinutes": 14
+    },
+    {
+      "id": "l10-4",
+      "courseId": "10",
+      "title": "Юридические аспекты",
+      "content": "Оферта, политика конфиденциности и обработка персональных данных для онлайн-школ.",
+      "order": 4,
+      "durationMinutes": 9
+    },
+    {
+      "id": "l1-8",
+      "courseId": "1",
+      "title": "Тестирование компонентов",
+      "content": "Vitest и Testing Library для unit-тестов React. Покрываем CourseCard и формы.",
+      "order": 8,
+      "durationMinutes": 17
+    },
+    {
+      "id": "l2-6",
+      "courseId": "2",
+      "title": "Строгий режим TypeScript",
+      "content": "strict, noImplicitAny, strictNullChecks — настраиваем tsconfig для production-проектов.",
+      "order": 6,
+      "durationMinutes": 10
+    },
+    {
+      "id": "l3-6",
+      "courseId": "3",
+      "title": "Accessibility в e-learning",
+      "content": "WCAG, контраст, keyboard navigation и screen readers для образовательных платформ.",
+      "order": 6,
+      "durationMinutes": 13
+    },
+    {
+      "id": "l4-6",
+      "courseId": "4",
+      "title": "Нормализация state",
+      "content": "Entity adapters и нормализованные коллекции для курсов и уроков в Redux store.",
+      "order": 6,
+      "durationMinutes": 15
+    },
+    {
+      "id": "l5-6",
+      "courseId": "5",
+      "title": "Тестирование Vue-компонентов",
+      "content": "Vitest + @vue/test-utils. Тестируем composables и компоненты с props/emits.",
+      "order": 6,
+      "durationMinutes": 14
+    },
+    {
+      "id": "l6-5",
+      "courseId": "6",
+      "title": "Design handoff",
+      "content": "Экспорт assets, спецификации отступов и документация для frontend-команды.",
+      "order": 5,
+      "durationMinutes": 11
+    },
+    {
+      "id": "l7-6",
+      "courseId": "7",
+      "title": "Email-маркетинг курсов",
+      "content": "Цепочки писем: welcome, напоминание о прогрессе, upsell следующего курса.",
+      "order": 6,
+      "durationMinutes": 10
+    },
+    {
+      "id": "l8-7",
+      "courseId": "8",
+      "title": "WebSockets basics",
+      "content": "Real-time уведомления через ws. Когда нужны сокеты в образовательной платформе.",
+      "order": 7,
+      "durationMinutes": 16
+    },
+    {
+      "id": "l9-6",
+      "courseId": "9",
+      "title": "Dark mode patterns",
+      "content": "Переключение темы, CSS variables и сохранение предпочтений пользователя.",
+      "order": 6,
+      "durationMinutes": 12
+    },
+    {
+      "id": "l10-5",
+      "courseId": "10",
+      "title": "Финансовая модель курса",
+      "content": "Ценообразование, break-even point и unit-экономика онлайн-курса.",
+      "order": 5,
+      "durationMinutes": 11
+    },
+    {
+      "id": "l2-7",
+      "courseId": "2",
+      "title": "Интеграция TS в CI",
+      "content": "tsc --noEmit в pipeline, type-aware ESLint и pre-commit hooks.",
+      "order": 7,
+      "durationMinutes": 8
+    },
+    {
+      "id": "l5-7",
+      "courseId": "5",
+      "title": "Сборка и деплой Vue SPA",
+      "content": "Vite build, environment variables и деплой на static hosting.",
+      "order": 7,
+      "durationMinutes": 15
+    },
+    {
+      "id": "l6-6",
+      "courseId": "6",
+      "title": "Анимация в UI",
+      "content": "Micro-interactions, transition в Figma и handoff анимаций в CSS.",
+      "order": 6,
+      "durationMinutes": 12
+    },
+    {
+      "id": "l7-7",
+      "courseId": "7",
+      "title": "Контент для соцсетей",
+      "content": "Продвижение курсов через Telegram, VK и короткие video-форматы.",
+      "order": 7,
+      "durationMinutes": 9
+    },
+    {
+      "id": "l8-8",
+      "courseId": "8",
+      "title": "Мониторинг и логи",
+      "content": "Winston, structured logging и health endpoints для Node-сервисов.",
+      "order": 8,
+      "durationMinutes": 13
+    }
+  ],
+  "users": [
+    {
+      "id": "user-1",
+      "email": "student@mail.ru",
+      "password": "123456",
+      "name": "Иван Студент",
+      "role": "user",
+      "enrolledCourseIds": [
+        "1",
+        "3"
+      ],
+      "completedLessonIds": [
+        "l1",
+        "l2"
+      ]
+    },
+    {
+      "id": "user-2",
+      "email": "anna@mail.ru",
+      "password": "123456",
+      "name": "Анна Петрова",
+      "role": "user",
+      "enrolledCourseIds": [
+        "2",
+        "5"
+      ],
+      "completedLessonIds": [
+        "l3"
+      ]
+    },
+    {
+      "id": "author-1",
+      "email": "author@mail.ru",
+      "password": "123456",
+      "name": "Мария Автор",
+      "role": "author",
+      "enrolledCourseIds": [],
+      "completedLessonIds": []
+    },
+    {
+      "id": "author-2",
+      "email": "designer@mail.ru",
+      "password": "123456",
+      "name": "Олег Дизайнер",
+      "role": "author",
+      "enrolledCourseIds": [],
+      "completedLessonIds": []
+    },
+    {
+      "id": "admin-1",
+      "email": "admin@mail.ru",
+      "password": "123456",
+      "name": "Админ Системы",
+      "role": "admin",
+      "enrolledCourseIds": [],
+      "completedLessonIds": []
+    }
+  ],
+  "authors": [
+    {
+      "id": "author-1",
+      "name": "Мария Автор",
+      "bio": "Frontend-разработчик с 8-летним опытом. Ведёт курсы по React, TypeScript и Redux. Работала в продуктовых командах edtech-проектов.",
+      "expertise": [
+        "React",
+        "TypeScript",
+        "Redux",
+        "Node.js"
+      ],
+      "coursesCount": 6
+    },
+    {
+      "id": "author-2",
+      "name": "Олег Дизайнер",
+      "bio": "UX/UI-дизайнер и продуктовый исследователь. Специализируется на образовательных платформах и e-commerce интерфейсах.",
+      "expertise": [
+        "UX Research",
+        "Figma",
+        "UI Design",
+        "SEO"
+      ],
+      "coursesCount": 5
+    }
+  ],
+  "feedback": [
+    {
+      "id": "fb-1",
+      "courseId": "1",
+      "courseTitle": "Основы React",
+      "studentId": "user-1",
+      "studentName": "Иван Студент",
+      "authorId": "author-1",
+      "message": "Не совсем понял разницу между props и state. Можете привести ещё один пример?",
+      "createdAt": "2026-05-20T10:30:00.000Z",
+      "reply": "Props передаются извне и неизменны внутри компонента, state — локальные данные компонента. Пример: props — title карточки курса, state — открыта ли форма записи.",
+      "repliedAt": "2026-05-20T14:15:00.000Z"
+    },
+    {
+      "id": "fb-2",
+      "courseId": "3",
+      "courseTitle": "UX образовательных платформ",
+      "studentId": "user-1",
+      "studentName": "Иван Студент",
+      "authorId": "author-2",
+      "message": "Как лучше тестировать прототип каталога курсов с пользователями?",
+      "createdAt": "2026-05-22T09:00:00.000Z"
+    },
+    {
+      "id": "fb-3",
+      "courseId": "2",
+      "courseTitle": "TypeScript для фронтенда",
+      "studentId": "user-2",
+      "studentName": "Анна Петрова",
+      "authorId": "author-1",
+      "message": "Когда лучше использовать interface, а когда type?",
+      "createdAt": "2026-05-25T11:45:00.000Z",
+      "reply": "Для объектов и публичных контрактов чаще interface (удобно расширять). Для union, tuple и utility-комбинаций — type.",
+      "repliedAt": "2026-05-25T16:00:00.000Z"
+    },
+    {
+      "id": "fb-4",
+      "courseId": "5",
+      "courseTitle": "Vue 3: Composition API",
+      "studentId": "user-2",
+      "studentName": "Анна Петрова",
+      "authorId": "author-2",
+      "message": "Есть ли в курсе сравнение composables с React hooks?",
+      "createdAt": "2026-06-01T08:20:00.000Z"
+    }
+  ]
+}

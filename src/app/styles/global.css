@@ -1,0 +1,39 @@
+@import '../../shared/styles/tokens.css';
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-family);
+  background: var(--color-bg);
+  color: var(--color-text);
+  line-height: 1.5;
+}
+
+a {
+  color: #2563eb;
+}
+
+.container {
+  width: min(100% - 2rem, var(--max-width));
+  margin: 0 auto;
+}
+
+.page {
+  padding: 1.5rem 0 3rem;
+}
+
+.pageTitle {
+  margin: 0 0 1.5rem;
+  font-size: clamp(1.25rem, 5vw, 1.75rem);
+}
+
+@media (max-width: 767px) {
+  .page {
+    padding: 1rem 0 2rem;
+  }
+}
